@@ -1,0 +1,17 @@
+.SidebarLogo {
+  display: flex;
+  height: 64px;
+}
+
+.SidebarLogo__names {
+  padding-left: 16px;
+}
+
+.SidebarLogo__names h2 {
+  margin: 0;
+}
+
+.SidebarLogo__icon {
+  width: 32px;
+  height: 32px;
+}

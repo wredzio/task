@@ -1,0 +1,7 @@
+.SidebarSearchInput {
+  width: 32px;
+}
+
+.SidebarSearchInput--expanded {
+  width: 100%;
+}

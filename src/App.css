@@ -1,3 +1,12 @@
 .App {
-  text-align: center;
+  background-color: #c0d6df;
 }
+
+.App__content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 4F6D7A */

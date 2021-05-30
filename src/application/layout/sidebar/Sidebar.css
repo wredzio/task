@@ -1,0 +1,32 @@
+.Sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 16px;
+  height: 100%;
+  width: 32px;
+  background-color: #4f6d7a;
+  color: white;
+  overflow-x: hidden;
+}
+
+.Sidebar--expanded {
+  width: 240px;
+}
+
+.Sidebar .Sidebar__sider {
+  display: flex;
+  flex-direction: column;
+}
+
+.Sidebar .Sidebar__sider .Sidebar__menu {
+  flex: 2;
+  border-bottom: 1px solid #2b393e;
+}
+
+.Sidebar .Sidebar__sider .Sidebar__auxiliaryMenu {
+  flex: 1;
+}
+.Sidebar__auxiliaryMenu ul {
+  color: white;
+}
